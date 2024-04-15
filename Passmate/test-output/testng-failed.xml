@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Passmate.test.listener"/>
+  </listeners>
+  <test thread-count="5" name="chrometest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Passmate.test.Passmatequestionssubmitflow">
+        <methods>
+          <include name="LearningStyleQuestions"/>
+          <include name="flush"/>
+          <include name="DriverProfile"/>
+          <include name="Checkout"/>
+          <include name="setup"/>
+          <include name="ResultsPage"/>
+          <include name="end"/>
+          <include name="AboutyouQuestions"/>
+        </methods>
+      </class> <!-- Passmate.test.Passmatequestionssubmitflow -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
