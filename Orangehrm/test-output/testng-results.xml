@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28858" started-at="2024-04-15T13:22:28Z" finished-at="2024-04-15T13:22:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28858" started-at="2024-04-15T13:22:28Z" finished-at="2024-04-15T13:22:57Z">
+      <class name="OrangeHRM.Orangehrm.Orangepractice">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:OrangeHRM.Orangehrm.Orangepractice@5383967b]" name="beforeTest" is-config="true" duration-ms="8124" started-at="2024-04-15T13:22:28Z" finished-at="2024-04-15T13:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="OrangeLoginFailure()[pri:1, instance:OrangeHRM.Orangehrm.Orangepractice@5383967b]" name="OrangeLoginFailure" duration-ms="11873" started-at="2024-04-15T13:22:36Z" finished-at="2024-04-15T13:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeLoginFailure -->
+        <test-method status="PASS" signature="OrangeLoginSuccess()[pri:2, instance:OrangeHRM.Orangehrm.Orangepractice@5383967b]" name="OrangeLoginSuccess" duration-ms="8207" started-at="2024-04-15T13:22:48Z" finished-at="2024-04-15T13:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrangeLoginSuccess -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:OrangeHRM.Orangehrm.Orangepractice@5383967b]" name="afterTest" is-config="true" duration-ms="638" started-at="2024-04-15T13:22:56Z" finished-at="2024-04-15T13:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- OrangeHRM.Orangehrm.Orangepractice -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
