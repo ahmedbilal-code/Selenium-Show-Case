@@ -27,7 +27,7 @@ public class Orangepractice {
 	@AfterTest
 	public void afterTest() {
 
-		driver.quit();
+		driver.quit();//one
 	}
 
 	@Test(priority=1)
